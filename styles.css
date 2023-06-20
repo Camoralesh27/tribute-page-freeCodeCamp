@@ -1,0 +1,114 @@
+/* Ordenar Caja */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Globales */
+:root{
+    --fondo-principal: #ffffff;
+    --fondo-contenido: #eeeeee;
+    --texto: #333333;
+
+    --fuente-txt: sans-serif , Helvetica;
+}
+
+body{
+    background-color: var(--fondo-principal);
+    font-family: var(--fuente-txt);
+    color: var(--texto);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+main{
+    background-color: var(--fondo-contenido);
+    border-radius: 10px;
+    margin: 3rem .8rem;
+    padding: 1.5rem;
+}
+
+/* Title */
+#title{
+    text-align: center;
+    padding: 3.5rem;
+}
+
+#title > h1{
+    font-size: 3.5rem;
+}
+
+#title > p{
+    padding-top: 1.5rem;
+}
+
+
+/* Imagen principal */
+#img-div{
+    background-color: white;
+    padding: 1rem; 
+} 
+  
+#image{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+  
+#img-caption{
+    text-align: center;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+
+/* Linea de tiempo */
+#tribute-info{
+    max-width: 55rem;
+    margin: 0 auto;
+}
+  
+#tribute-info > h2{
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 1.6rem; 
+}
+
+.item{
+    margin: 1.6rem 0;
+}
+  
+.year{
+    font-weight: bold;
+}
+  
+.italic{
+    font-style: italic;
+}
+  
+.bold{
+    font-weight: bold;
+}
+
+blockquote{
+    margin: 0 0 5rem 0;
+}
+
+blockquote > p{
+    margin:1.6rem 0;
+}
+
+/* Final Information */
+.center{
+    text-align: center;
+}
+
+.about{
+    margin: 1.872rem 0;
+}
